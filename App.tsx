@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import NerveGame from './components/NerveGame';
-import { GameState, AIAnalysis } from './types';
-import { localPerformanceAnalysis } from './services/aiService';
+import NerveGame from './components/NerveGame.tsx';
+import { GameState, AIAnalysis } from './types.ts';
+import { localPerformanceAnalysis } from './services/aiService.ts';
 import { Target, Zap, Trophy, RefreshCcw, Activity, MousePointer2, AlertCircle, ShieldCheck } from 'lucide-react';
 
 const App: React.FC = () => {
